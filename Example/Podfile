@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HWDatePicker_Example' do
+  pod 'HWDatePicker', :path => '../'
+
+  target 'HWDatePicker_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
