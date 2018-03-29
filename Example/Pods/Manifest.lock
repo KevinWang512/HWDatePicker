@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HWDatePicker (0.1.0):
+  - HWDatePicker (1.0.0):
     - HWExtension/Category
   - HWExtension/Category (1.0.5)
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HWDatePicker: a88eaf9ae136494fba2e7c87c68ee54d4c3ddeec
+  HWDatePicker: 1b64b057629514df8ae62813f15f802492732658
   HWExtension: a5b9ac7b98ee1467b3214ae0e9c2e98958c1d60e
 
 PODFILE CHECKSUM: 0e390010f282f0eefdd5e12f5db43160265c15e9

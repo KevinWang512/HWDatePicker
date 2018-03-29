@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'wanghouwen' => 'wanghouwen123@126.com' }
-  s.source           = { :git => 'https://github.com/wanghouwen/HWDatePicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wanghouwen/HWDatePicker.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.requires_arc = true

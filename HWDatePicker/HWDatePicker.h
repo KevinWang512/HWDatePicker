@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NSString+Category.h"
-#import "NSDate+Category.h"
 
 /*
  * support the following formatter keywords:

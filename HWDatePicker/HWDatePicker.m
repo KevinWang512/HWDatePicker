@@ -7,6 +7,8 @@
 //
 
 #import "HWDatePicker.h"
+#import "NSString+Category.h"
+#import "NSDate+Category.h"
 
 #define kMaxYearCount (2000 * 99)
 
