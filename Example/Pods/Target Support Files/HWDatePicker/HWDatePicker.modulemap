@@ -1,0 +1,6 @@
+framework module HWDatePicker {
+  umbrella header "HWDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
