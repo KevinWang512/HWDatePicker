@@ -304,8 +304,8 @@ void *HWDatePickerObserverContext = &HWDatePickerObserverContext;
 // item view
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(nullable UIView *)view {
     UILabel *label = [self componentLabelWithString:[self titleForRow:row forComponent:component]];
-    if (self.delegate && [self.delegate respondsToSelector:@selector(pickerView:textAttributeForComponent:)]) {
-        label.attributedText = [[NSAttributedString alloc] initWithString:label.text attributes:[self.delegate pickerView:self textAttributeForComponent:component]];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(pickerView:textAttributeForRow:forComponent:)]) {
+        label.attributedText = [[NSAttributedString alloc] initWithString:label.text attributes:[self.delegate pickerView:self textAttributeForRow:row forComponent:component]];
     } else {
         label.textColor = self.textColor;
         label.font = self.textFont;

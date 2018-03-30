@@ -57,7 +57,7 @@
 - (CGFloat)pickerView:(HWDatePicker *)pickerView rowHeightForComponent:(NSInteger)component;
 
 //  component 富文本属性
-- (NSDictionary *)pickerView:(HWDatePicker *)pickerView textAttributeForComponent:(NSInteger)component;
+- (NSDictionary *)pickerView:(HWDatePicker *)pickerView textAttributeForRow:(NSInteger)row forComponent:(NSInteger)component;
 
 //  日期变化回调
 - (void)pickerViewSelectDateDidChanged:(HWDatePicker *)pickerView newDate:(NSDate *)newDate;

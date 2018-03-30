@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HWDatePicker'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '可自定义格式的日期选择控件'
   s.homepage         = 'https://github.com/wanghouwen/HWDatePicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

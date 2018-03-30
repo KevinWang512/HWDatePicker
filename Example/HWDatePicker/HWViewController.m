@@ -40,10 +40,10 @@
     return 44;
 }
 
-- (NSDictionary *)pickerView:(HWDatePicker *)pickerView textAttributeForComponent:(NSInteger)component
+- (NSDictionary *)pickerView:(HWDatePicker *)pickerView textAttributeForRow:(NSInteger)row forComponent:(NSInteger)component
 {
     if (component == 0) {
-        return @{NSForegroundColorAttributeName : [UIColor blueColor]};
+        return @{NSForegroundColorAttributeName : [UIColor blueColor], NSFontAttributeName : [UIFont boldSystemFontOfSize:18]};
     } else if (component == 1) {
         return @{NSForegroundColorAttributeName : [UIColor greenColor]};
     } else if (component == 2) {
